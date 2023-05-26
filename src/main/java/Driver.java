@@ -6,15 +6,18 @@ public class Driver {
 		
 		Counter counter = new Counter();
 		
-		System.out.println("Current count:" + counter.getCount());
+		System.out.println("Jumlah saat ini :" + counter.getCount());
 		
 		counter.increment();
+		counter.increment();
+		counter.increment();
 		
-		System.out.println("Current count:" + counter.getCount());
+		System.out.println("Jumlah saat ini :" + counter.getCount());
 		
 		counter.decrement();
+		counter.decrement();
 		
-		System.out.println("Current count:" + counter.getCount());
+		System.out.println("Jumlah saat ini :" + counter.getCount());
 		
 	}
 
